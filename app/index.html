@@ -1,0 +1,55 @@
+<!-- File: index.html
+Author: Bencsik Boglár Bianka
+Copyright: 2024, Bencsik Boglár Bianka 
+Group: Szoft V
+Date: 2024-05-30
+Github: https://github.com/BencsikBoglarBianka/
+Licenc: GNU GPL -->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ellipszoid</h1>
+        <div class="form">
+          <div class="input">
+            <label for="a" class="form-label"> A Tengely</label>
+            <input type="text" class="form-control"
+            id="a">
+          </div>
+        <div class="form">
+          <div class="input">
+            <label for="b" class="form-label">B Tengely</label>
+            <input type="text" class="form-control"
+            id="b">
+          </div>
+        <div class="form">
+          <div class="input">
+            <label for="c" class="form-label">C Tengely</label>
+            <input type="text" class="form-control"
+            id="c">
+          </div>
+  
+          <div>
+            <button class="btn btn-danger mt-4"
+            id="calcButton">Eredmény</button>
+          </div>
+          <div class="input">
+            <label for="volume" class="form-label">Kerület :</label>
+            <input type="text" class="form-control"
+            id="volume">
+          </div>
+  
+      </div>
+      <script type="module" src="app.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
