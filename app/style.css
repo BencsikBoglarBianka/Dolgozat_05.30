@@ -1,7 +1,7 @@
 /*
 * File: style.css
 * Author: Bencsiik Boglár Bianka
-* Copyright: 2021, Bencsik Boglár Bianka 
+* Copyright: 2024, Bencsik Boglár Bianka 
 * Group: Szoft V
 * Date: 2024-05-30
 * Github: https://github.com/BencsikBoglarBianka/Dolgozat_05.30
